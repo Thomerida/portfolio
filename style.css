@@ -1,0 +1,164 @@
+html{
+	height: 240%;
+	margin: 0;
+
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+.fondo{
+	width: 100%;
+}
+
+
+.in{
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.in:hover{
+	color: hotpink;
+}
+
+.nombre{
+	position: absolute;
+	margin-top: -35%;
+	margin-left: 6%;
+	font-family: 'League Spartan', sans-serif;
+	font-size: 7vh;
+	color: #E5E5E5;
+}
+
+
+
+span{
+	opacity: 0;
+	transition: all 1s ease;
+	display: inline-block;
+	transform: translateY(50px);
+}
+
+span.fade{
+	opacity: 1;
+	transform: translate(0px);
+}
+
+.subt1{
+	position: absolute;
+	margin-top: -31%;
+	margin-left: 6.5%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3vh;
+	color: #E5E5E5;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.subt1:hover{
+	color: hotpink;
+}
+
+
+.subt2{
+	position: absolute;
+	margin-top: -29%;
+	margin-left: 6.5%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3vh;
+	color: #E5E5E5;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.subt2:hover{
+	color: hotpink;
+}
+
+.abfoto{
+	margin-top: 0%;
+	margin-left: 4%;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.abfoto:hover{
+	opacity: 0.5;
+}
+
+.bio{
+	margin-top: -35%;
+	margin-left: 40%;
+	width: 50%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3vh;
+	color: #E5E5E5;
+}
+
+.prsub{
+	margin-top: 20%;
+	margin-left: 7%;
+	font-family: 'League Spartan', sans-serif;
+	font-size: 3vh;
+	color: #E5E5E5;
+}
+
+.prsubsub{
+	margin-top: 1%;
+	margin-left: 7%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5vh;
+	color: #E5E5E5;
+}
+
+.inks {  
+	height: 500px;
+	margin-top: 8%;
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr 1fr;
+  	grid-template-rows: 1fr 1fr 1fr;
+  	gap: 0px 0px;
+  	grid-auto-flow: row;
+  	grid-template-areas:
+    "behancelogo behancetext instagramlogo instagramtext"
+    "githublogo githubtext linkedinlogo linkedintext"
+    ". . . .";
+}
+
+.behancelogo { grid-area: behancelogo; }
+
+.githublogo { grid-area: githublogo; }
+
+.behancetext { grid-area: behancetext; }
+
+.githubtext { grid-area: githubtext; }
+
+.instagramlogo { grid-area: instagramlogo; }
+
+.linkedinlogo { grid-area: linkedinlogo; }
+
+.instagramtext { grid-area: instagramtext; }
+
+.linkedintext { grid-area: linkedintext; }
+
+.logos{
+	cursor: pointer;
+	transition: all 0.3s ease;
+	width: 30%;
+	margin-left: 55%;
+}
+
+.logos:hover{
+	width: 40%;
+}
+
+.tx{
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 2vh;
+	color: #E5E5E5;
+	margin-top: 10%;
+}
+
+
