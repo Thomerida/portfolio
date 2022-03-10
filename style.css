@@ -165,10 +165,12 @@ span.fade{
 
 	.subt1{
 		margin-top:-90px ;
+		opacity: 0;
 	}
 
 	.subt2{
 		margin-top: -100px;
+		opacity: 0;
 	}
 
 	.abfoto{
